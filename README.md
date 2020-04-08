@@ -31,11 +31,28 @@
 
 * 1.ödev bölümüne GitHub proje linki  ile beraber  kısa  bilgi dökümanı  gönderilmelidr. 
 
-## Daha Önceki çalışmalarım
+## Daha Önceki Çalışmalarım
 
 Daha önce MaviDurak-IO'nun mentörlük projesi kapsamında amatör düzeyde kendi web sitemi oluşturmaya çalışmıştım. Görsel ağırlıklı
 iletişim bilgilerim linkte bulunan tek sayfalık bir çalışma olmuştu. O günlerden bu yana birçok yeni şey öğrendim. Tabi o zaman 
 responsive yapmak gibi bir derdim olmadığı için farklı çözünürlüklerde büyüsü bozuluyordu. Bu seferki çalışmam çok daha büyük ve gerçekçi
 olacak.
  
- ![GitHub Logo](Project/Pictures/ScreenShot.JPG)
+ ![Website Pic](Project/Pictures/ScreenShot.JPG)
+ 
+ [Resimdeki projenin github linki](https://github.com/DEONSKY/mentor-project-2)
+ 
+  
+## Bu projenin tasarımı
+ 
+* Hakkımda bölümünde kendimi kısaca tanıtıp ilgi alanlarımdan bahsedecem.
+
+* Eğitim bilgilerini içeren özgeçmişim kısmı olacak
+
+* Şehrim kısmında yaşadığım yeri bol görselli tanıtacam. Bu yüzden bu kısımdaki görselleri internet üzerinden çekmeyi düşünüyorum.
+
+* Geliştirdikçe ekstra özellikler ekleyeblirim.
+
+* Commitleri conflictler oluşması açısından her sayfa tamamlandığında pushlamayı düşünüyorum
+
+![Yeni Proje Demosu](Project/Pictures/NewProjectDemo.JPG)
