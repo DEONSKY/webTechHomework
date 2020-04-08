@@ -1,0 +1,38 @@
+body {
+    background-image: url("Pictures/kristopher-roller-3SFgixAUnAU-unsplash.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100vh;
+    background-color: rgba(0, 0,0, 0.1);
+
+}
+.navbar {
+    border-bottom: 3px rgb(0, 170, 170) solid;
+} 
+
+.bg-dark {
+    background-color: rgba(0, 0,0, 0.9) !important;
+}
+/*#headerSection{
+    background-image: url("Pictures/kristopher-roller-3SFgixAUnAU-unsplash.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100vh;
+
+}*/
+/*#headerSection .overlay{
+    background-color: rgba(0, 0,0, 0.1);
+}*/
+#headerSection .row{
+    height:100vh;
+}
+#headerSection h1 {
+    Color:white;
+}
+.row .my-3 {
+    border-bottom: 3px rgb(0, 170, 170) solid;
+}
