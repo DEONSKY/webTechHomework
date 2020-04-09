@@ -7,12 +7,13 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/ozgecmis.css">
 
-    <title>Anasayfa</title>
+    <title>Ozgeçmiş</title>
   </head>
-  <body>
-    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+  <body id="body">
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top shadow-lg">
         <a class="navbar-brand" href="#">WebTechProject</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -28,7 +29,10 @@
             <li class="nav-item">
               <a class="nav-link" href="sehrim.html">Şehrim</a>
             </li>
-            
+            <li class="nav-item">
+              <a class="nav-link" href="iletisim.html">İletişim Sayfası</a>
+            </li>
+
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Dropdown link
@@ -43,7 +47,7 @@
           </ul>
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-              <a class="nav-link" href="#">Login</a>
+              <a class="nav-link" href="login.html">Login</a>
             </li>
           </ul>
         </div>
@@ -54,12 +58,56 @@
             <div class="container">
                 <div class="row text-center">
                     <div class="col my-auto">
-                        <h1 class="display-3 text-white" >Ben Kimim <span>?</span></h1>
+                        <h1 class="display-3 text-white" >Özgeçmişim</h1>
                     </div>
                 </div>
             </div>
         </div>
       </header>
+
+      <section id="abilities3" class="bg-dark text-white mx-5 border border-warning rounded mb-5 shadow-lg">
+        <div class="container">
+          <div class="row my-3 ">
+            <div class="col-lg-6 my-4">
+              <img src="./Pictures/giammarco-boscaro-zeH-ljawHtg-unsplash.jpg" class="img-fluid rounded" >
+            </div>
+            <div class="col-lg-6 my-4">
+                <h2>Derin Ben</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                   Fusce ultrices faucibus mollis.
+                   Mauris consequat dui nec nisi ornare, commodo imperdiet augue malesuada.
+                   Quisque et venenatis magna. Nunc id sapien enim. Ut euismod ultrices sagittis.
+                   Curabitur vel tincidunt diam. Duis ac sagittis ligula, ut bibendum urna.
+                   Nulla facilisi. Duis egestas metus metus, nec egestas velit auctor ac.
+                   Praesent in libero eu lorem suscipit placerat. Vivamus consectetur sodales lorem quis bibendum.
+                   Proin nec congue eros. Fusce fermentum leo sed nunc efficitur vestibulum.
+                   Mauris dapibus justo eget nibh finibus mollis. Aenean ac tristique neque, quis bibendum elit.</p>  
+            </div>
+          </div>
+          <div class="row my-3 d-none" id="detail3">
+            <div class="col-lg-6 my-4">
+              <img src="./Pictures/giammarco-boscaro-zeH-ljawHtg-unsplash.jpg" class="img-fluid rounded" >
+            </div>
+            <div class="col-lg-6 my-4">
+                <h2>Derin Ben</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                   Fusce ultrices faucibus mollis.
+                   Mauris consequat dui nec nisi ornare, commodo imperdiet augue malesuada.
+                   Quisque et venenatis magna. Nunc id sapien enim. Ut euismod ultrices sagittis.
+                   Curabitur vel tincidunt diam. Duis ac sagittis ligula, ut bibendum urna.
+                   Nulla facilisi. Duis egestas metus metus, nec egestas velit auctor ac.
+                   Praesent in libero eu lorem suscipit placerat. Vivamus consectetur sodales lorem quis bibendum.
+                   Proin nec congue eros. Fusce fermentum leo sed nunc efficitur vestibulum.
+                   Mauris dapibus justo eget nibh finibus mollis. Aenean ac tristique neque, quis bibendum elit.</p>  
+            </div>
+          </div>
+          <div class="row mb-4">
+            <div class="col-lg-12 mx-auto" >
+              <button type="button" id="button3" class="btn btn-outline-warning" onclick="toggleDisplay('detail3','button3','./Pictures/giammarco-boscaro-zeH-ljawHtg-unsplash.jpg')">Daha Fazla</button>
+            </div>
+          </div>
+        </div>
+      </section>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->

@@ -1,0 +1,23 @@
+body {
+    background-image: url("../Pictures/priscilla-du-preez-XkKCui44iM0-unsplash.jpg");
+}
+.navbar {
+    border-bottom: 3px #6c757d solid;
+} 
+#headerSection .row {
+    height:14vh;
+}
+.my-table{
+    background-color: rgba(0, 0,0, 0.0) !important;
+    text-align: center;
+    align-content: center;
+
+
+}
+/*#form1 {
+    width: 50vw;
+    align-self: center;
+}*/
+/*.form-row {
+    text-align: center;
+}*/

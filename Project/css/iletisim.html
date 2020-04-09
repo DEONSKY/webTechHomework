@@ -1,0 +1,149 @@
+<!doctype html>
+<html lang="en">
+    <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/iletisim.css">
+
+    <title>Şehrim</title>
+  </head>
+  <body id="body">
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top shadow-lg">
+        <a class="navbar-brand" href="#">WebTechProject</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="hakkimda.html">Hakkımda <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="ozgecmis.html">Özgeçmiş</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="sehrim.html">Şehrim</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="iletisim.html">İletişim Sayfası</a>
+              </li>
+              
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Dropdown link
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </div>
+            </li>
+            
+          </ul>
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="login.html">Login</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+      <header id="headerSection">
+        <div class="overlay">
+            <div class="container">
+                <div class="row text-center">
+                    <div class="col my-auto">
+                        <h1 class="display-3 text-white" ></h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </header>
+
+      <section class="bg-dark text-white mx-5 border border-secondary rounded mb-5 shadow-lg">
+        <div class="container" id="form1">
+          <div class="row my-3 ">
+            <div class="col-lg-12 my-4">
+                <form action="iletisimgit.php" method="POST">
+                    <table align="center">
+                    <tr>
+                      <td>Kullanıcı Adı:</td>
+                      <td colspan="2"><input type="text"class="form-control" name="ad" id="name"></td>
+                    </tr>
+                    <tr>
+                      <td>Email</td>
+                      <td colspan="2"><input type="text" class="form-control" name="email" id="email"></td>
+                    </tr>
+                    <tr>
+                      <td>Şifre</td>
+                      <td colspan="2"><input type="password"class="form-control" name="sifre"></td>
+                    </tr>
+          
+                  <tr>
+                    <td colspan="3"><li>Hobileriniz</li></td>
+          
+                  </tr>
+                  <tr class="custom-control custom-checkbox" > 
+                    <td><input  type="checkbox" name="sports[]" value="Football">Football</td>
+                    <td><input  type="checkbox" name="sports[]" value="Basketball">Basketball</td>
+                    <td><input  type="checkbox" name="sports[]" value="KungFuu" checked>KungFuu</td>
+                  </tr>
+                      <tr><td colspan="3"><li>Hangi takımı tutuyorsunuz</li></td></tr>
+                      <tr>
+                        <td><input type="radio" name="team" value="fb" checked>Fenerbahçe</td>
+                        <td><input type="radio" name="team" value="gf">Galatasaray</td>
+                        <td><input type="radio" name="team" value="ss">Sakarya Spor</td>
+                      </tr>
+                      <tr><td colspan="3">
+                        <textarea class="form-control" rows="5" cols="50" name="addres" id="addres">
+                          LOLOLOLOLOLOLO
+                        </textarea>
+                      </td></tr>
+                      <tr><td colspan=>  <label>Yaşadınız şehir</label></td>
+                      <td colspan="2"> <select name="sehirler"class="form-control" id="sehir">
+                        <option value="Tokyo" >Tokyo</option>
+                        <option value="Sakarya"selected>Sakarya</option>
+                        <option value="San Fransisco">San Francisco</option>
+                      </select> </td></tr>
+                      <tr><td colspan="3"> <input class="btn btn-primary" value="Temizle" type="reset">  <input type="submit" class="btn btn-primary" value="Gonder"><br></td></tr>
+                     
+                  <table>
+          
+          
+          
+          
+          
+          
+          
+          
+          
+              <!--    <label>Araba Markaları</label>
+                    <select name="cars" id="sehir">
+                      <option value="1" >Mercedes</option>
+                      <option value="2"selected>BMW</option>
+                      <option value="3">Toyota</option>
+                    </select><br><br><br>
+          
+                    <label for="addres">Adres: </label>
+          
+          
+                    <input type="text" name="addrs" size=50><br><br><br>
+          
+          
+          
+          
+                      !-->
+                  </form>
+
+
+
+    <script src="bootstrap/js/jquery.js" ></script>
+    <script src="bootstrap/js/popper.min.js" ></script>
+    <script src="bootstrap/js/bootstrap.js" ></script>
+    </body>
+</html>

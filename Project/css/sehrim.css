@@ -1,0 +1,27 @@
+.carousel {
+    
+    height:93vh;
+    /*width:100vw;*/
+    object-fit: cover;
+    }
+    
+    .carousel-inner img {
+    
+    height:93vh;
+    width: 100vw;
+    object-fit: cover;
+    
+    }
+#headerSection .row {
+    height:7vh;
+}
+
+.carousel-inner {
+    border-bottom: 3px #28a745 solid;;
+}
+body {
+    background-image: url("../Pictures/Sehrim/1539334262852228.jpg");
+}
+.navbar {
+    border-bottom: 3px #28a745 solid;
+} 

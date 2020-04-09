@@ -1,0 +1,9 @@
+body {
+    background-image: url("../Pictures/micah-williams-lmFJOx7hPc4-unsplash.jpg");
+}
+.navbar {
+    border-bottom: 3px #dc3545 solid;
+} 
+#headerSection .row {
+    height:14vh;
+}
