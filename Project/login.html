@@ -13,6 +13,9 @@
     <title>Şehrim</title>
   </head>
   <body id="body">
+    <script src="validation.js"></script>
+    <script src="changeValidate.js"></script>
+
     <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top shadow-lg">
       <a class="navbar-brand" href="#">WebTechProject</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -67,17 +70,31 @@
 
       <section class="bg-dark text-white mx-5 border border-secondary rounded mb-5 shadow-lg">
         <div class="container" id="form1">
-          <form action="iletisimgit.php" class="needs-validation" onsubmit = "id.preventDefault(); validate(id);" novalidate method="POST" class="form-inline">
+          <form action="logingit.php" name="myForm" class="needs-validation" onsubmit = "return validate();"  method="POST">
+          <div class="form-row my-3">Email: CC@hotmail.com   Şifre: 123
+          </div>
           <div class="form-row my-3">
             <div class="col-lg-4 my-3">
               <label for="email">Email:</label>
-              <input type="text" class="form-control" name="email" id="email">
+              <input type="text" class="form-control" name="email" id="email" onchange="emailV();">
+              <div class="valid-feedback">
+                Kriterlere uyuyor
+              </div>
+              <div class="invalid-feedback">
+                Alan boş yada Girdiğiniz bilgiler E mail formatında DEĞİL!!
+              </div>
             </div>
           </div>
           <div class="form-row my-3">
             <div class="col-lg-4 mb-3">
               <label for="password">Şifre:</label>
-              <input type="password"class="form-control" name="sifre">
+              <input type="password"class="form-control" name="sifre" onchange="sifreV();">
+              <div class="invalid-feedback">
+                Alan boş yada Şifre rakamdan başka karakter içeriyor
+              </div>
+              <div class="valid-feedback">
+                Kriterlere Uyuyor
+              </div>
             </div>
           </div>
           <div class="form-row">
