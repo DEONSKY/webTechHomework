@@ -50,18 +50,11 @@ border-radius: 30px;}
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="iletisim.html">İletişim Sayfası</a>
-              </li>
-              
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Dropdown link
-              </a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                <a class="dropdown-item" href="#">Action</a>
-                <a class="dropdown-item" href="#">Another action</a>
-                <a class="dropdown-item" href="#">Something else here</a>
-              </div>
             </li>
+            <li class="nav-item">
+              <a class="nav-link" href="miras.html">Mirasımız</a>
+            </li>
+
             
           </ul>
           <ul class="navbar-nav ml-auto">
@@ -129,6 +122,7 @@ border-radius: 30px;}
                 <td>Yaşadığınız Şehir</td>
                 <td ><?php echo $_POST["sehirler"]?></td>
               </tr>
+                </table>
               </div>
             </div>
         </div>

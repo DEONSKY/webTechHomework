@@ -1,0 +1,23 @@
+body {
+    background-image: url("../Pictures/Sehrim/WhatsAppImage2020-01-15at15_18_44.jpeg");
+}
+.navbar {
+    border-bottom: 3px #28a745 solid;
+} 
+.carousel {
+    
+    height:93vh;
+    /*width:100vw;*/
+    object-fit: cover;
+    }
+    
+.carousel-inner img {
+    
+    height:93vh;
+    width: 100vw;
+    object-fit: cover;
+    
+}
+    .carousel-inner {
+        border-top: 3px #28a745 solid;;
+    }

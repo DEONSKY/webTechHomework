@@ -4,3 +4,9 @@ body {
 .navbar {
     border-bottom: 3px #ffc107 solid;
 } 
+.my-table{
+    background-color: rgba(0, 0,0, 0.0) !important;
+    align-content: center;
+
+
+}
