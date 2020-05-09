@@ -18,6 +18,10 @@ body {
     object-fit: cover;
     
 }
-    .carousel-inner {
-        border-top: 3px #28a745 solid;;
-    }
+.carousel-inner {
+    border-top: 3px #28a745 solid;;
+}
+.nav-link:hover{
+    color: whitesmoke!important;
+
+}

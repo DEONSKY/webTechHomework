@@ -36,4 +36,12 @@ body {
 /*.row .my-3 {
     border-bottom: 3px rgb(0, 170, 170) solid;
 }*/
+.nav-link{
+    transition: .5s ease;
+}
+.nav-link:hover{
+    color: whitesmoke!important;
 
+
+
+}

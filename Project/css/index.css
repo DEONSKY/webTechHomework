@@ -13,3 +13,7 @@ body {
 .navbar {
     border-bottom: 3px #8d00c4 solid;
 } 
+.nav-link:hover{
+    color: whitesmoke!important;
+
+}

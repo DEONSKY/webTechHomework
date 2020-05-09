@@ -25,3 +25,7 @@ body {
 .navbar {
     border-bottom: 3px #28a745 solid;
 } 
+.nav-link:hover{
+    color: whitesmoke!important;
+
+}

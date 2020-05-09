@@ -7,3 +7,7 @@ body {
 #headerSection .row {
     height:14vh;
 }
+.nav-link:hover{
+    color: whitesmoke!important;
+
+}

@@ -15,8 +15,17 @@ body {
 }
 .link-logo{
     height:55px;
+    transition: .5s ease;
+
+}
+.link-logo:hover {
+    height: 65px;
 
 }
 .navbar {
     border-bottom: 3px #c47f00 solid;
 } 
+.nav-link:hover{
+    color: whitesmoke!important;
+
+}

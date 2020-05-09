@@ -73,8 +73,13 @@
                   {
                     echo $namen[0]."  Hoşgeldin" ;
                   }else {
-                    echo "Kullanıcı epostası yada şifre hatalı";
-                    header("Location:login.html");
+
+                    echo "Kullanıcı epostası yada şifre hatalı ";
+                    echo "5 saniye içinde geri yönlendiriliyorsunuz";
+                    
+                    
+                    header("refresh:5;url=login.html");
+                    
                   }?>
               </h1>
             </div>
