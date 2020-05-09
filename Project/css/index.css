@@ -1,0 +1,15 @@
+body {
+    background-image: url("../Pictures/pawel-nolbert-62OK9xwVA0c-unsplash.jpg");
+    
+}
+.overlay{
+    height:100vh;
+    background-color: rgba(0, 0,0, 0.1)!important;
+}
+#headerSection .row {
+    height:20vh;
+    text-shadow: 2px 2px 10px black;
+}
+.navbar {
+    border-bottom: 3px #8d00c4 solid;
+} 

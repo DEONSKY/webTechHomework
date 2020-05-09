@@ -33,7 +33,7 @@ border-radius: 30px;}
 </head>
 <body>
 <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top shadow-lg">
-        <a class="navbar-brand" href="#">WebTechProject</a>
+        <a class="navbar-brand" href="index.html">WebTechProject</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -54,7 +54,9 @@ border-radius: 30px;}
             <li class="nav-item">
               <a class="nav-link" href="miras.html">Mirasımız</a>
             </li>
-
+            <li class="nav-item">
+              <a class="nav-link" href="ulas.html">Bana Ulaşın</a>
+            </li>
             
           </ul>
           <ul class="navbar-nav ml-auto">
@@ -77,8 +79,8 @@ border-radius: 30px;}
         </div>
       </header>
 
-<section id="abilities3" class="bg-dark text-white mx-5 border border-secondary rounded mb-5 shadow-lg">
-        <div class="container">
+<section id="abilities3" class="text-white mx-5 mb-5">
+        <div class="bg-dark container border border-secondary rounded shadow-lg">
           <div class="row my-3 ">
             <div class="col-lg-12 my-4">
               <h1 class="display-3 text-white" align="center" >İletisim Bilgileri</h1>

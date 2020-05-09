@@ -28,6 +28,7 @@ body {
 }*/
 #headerSection .row{
     height:100vh;
+    text-shadow: 2px 2px 10px black;
 }
 #headerSection h1 {
     Color:white;
