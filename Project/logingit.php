@@ -1,4 +1,26 @@
-<html>
+<?php 
+                          
+                          $myemail="CC@hotmail.com";
+                          $mysifre="123";
+                          $email = $_POST['email'];
+                          $sifre = $_POST['sifre'];
+                          $namen=explode("@",$email);
+                          $signal=false;
+                          if($email==$myemail && $mysifre==$sifre)
+                          {
+                            $signal=true;
+                            
+                          }else {
+                            $signal=false;
+                            header("refresh:5;url=login.html");
+
+                            
+                            
+                            
+                            //header("Location:login.html");
+                          }
+                        ?>
+<html lang="en">
 <head>
   
     <meta charset="utf-8">
@@ -62,25 +84,18 @@
         <div class="bg-dark container border border-secondary rounded shadow-lg">
           <div class="row my-3 ">
             <div class="col-lg-12 my-4">
-              <h1 class="display-4 text-white" align="center" ><?php 
-                          
-                  $myemail="CC@hotmail.com";
-                  $mysifre="123";
-                  $email = $_POST['email'];
-                  $sifre = $_POST['sifre'];
-                  $namen=explode("@",$email);
-                  if($email==$myemail && $mysifre==$sifre)
-                  {
-                    echo $namen[0]."  Hoşgeldin" ;
-                  }else {
-
-                    echo "Kullanıcı epostası yada şifre hatalı ";
-                    echo "5 saniye içinde geri yönlendiriliyorsunuz";
-                    
-                    
-                    header("refresh:5;url=login.html");
-                    
-                  }?>
+              <h1 class="display-4 text-white" align="center" >
+                  <?php
+                    if($signal==true)
+                    {
+                      echo $namen[0]."  Hoşgeldin" ;
+                    }
+                    else
+                    {
+                      echo "Kullanıcı epostası yada şifre hatalı ";
+                      echo "5 saniye içinde geri yönlendiriliyorsunuz";
+                    }
+                  ?>
               </h1>
             </div>
           </div>
