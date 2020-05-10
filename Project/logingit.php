@@ -62,7 +62,7 @@
         <div class="bg-dark container border border-secondary rounded shadow-lg">
           <div class="row my-3 ">
             <div class="col-lg-12 my-4">
-              <h1 class="display-3 text-white" align="center" ><?php 
+              <h1 class="display-4 text-white" align="center" ><?php 
                           
                   $myemail="CC@hotmail.com";
                   $mysifre="123";

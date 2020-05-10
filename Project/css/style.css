@@ -41,7 +41,13 @@ body {
 }
 .nav-link:hover{
     color: whitesmoke!important;
-
-
-
 }
+@media (max-width: 600px) {
+    .mx-5 {
+        margin-left: 2px!important;
+        margin-right: 2px!important;
+    }}
+    .nobr { hyphens: manual;
+        -webkit-hyphens: manual;
+        -ms-hyphens: manual;
+    }
